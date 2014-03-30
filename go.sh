@@ -2,12 +2,12 @@
 #
 #
 
-NFRAMES=20
-W=100
-H=100
-FPS=30
+NFRAMES=100
+W=1920
+H=1080
+FPS=25
 
-sed "s/WIDTH/$W//" animated.template | sed "s/HIEGHT/$H//" > anim_template.flame
+sed "s/WIDTH/$W/" animated.template | sed "s/HEIGHT/$H/" > anim_template.flame
 
 for flame in genomes/*.flam3; do
 
