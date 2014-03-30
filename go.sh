@@ -3,8 +3,8 @@
 #
 
 NFRAMES=120
-W=192
-H=108
+W=1920
+H=1080
 FPS=30
 FLAME=""
 
@@ -33,27 +33,28 @@ for FLAME in genomes/*.flam3; do
   # Create a new flame file with enough frames to loop
   env template=anim_template.flame sequence=tmp.flame nframes=$NFRAMES flam3-genome  > animated_genomes/${OLD_ID}_${ID}.flame
 
-  # Make stills out of the animated flame file, first the first part of the animation
-  mkdir -p frames/${OLD_ID}/ 2>/dev/null
-  let END=$NFRAMES-1
-  env in=animated_genomes/${OLD_ID}_${ID}.flame prefix=frames/$OLD_ID/ format=jpg jpeg=95 begin=0 end=$END flam3-animate
-  mencoder mf://frames/$OLD_ID/*.jpg -mf w=$W:h=$H:fps=$FPS:type=jpg -ovc copy -oac copy -o movies/$OLD_ID.avi
-  echo "movies/$OLD_ID.avi" >> playlist.m3u
-  echo "movies/$OLD_ID.avi" >> playlist.m3u
-  echo "movies/$OLD_ID.avi" >> playlist.m3u
+  if  ! [[ -f movies/$OLD_ID.avi ]] ; then
+    # Make stills out of the animated flame file, first the first part of the animation
+    mkdir -p frames/${OLD_ID}/ 2>/dev/null
+    let END=$NFRAMES-1
+    env in=animated_genomes/${OLD_ID}_${ID}.flame prefix=frames/$OLD_ID/ format=jpg jpeg=95 begin=0 end=$END flam3-animate
+    mencoder mf://frames/$OLD_ID/*.jpg -mf w=$W:h=$H:fps=$FPS:type=jpg -ovc copy -oac copy -o movies/$OLD_ID.avi
+    echo "movies/$OLD_ID.avi" >> playlist.m3u
+    echo "movies/$OLD_ID.avi" >> playlist.m3u
+    echo "movies/$OLD_ID.avi" >> playlist.m3u
+  fi
 
-  # Now make the transition part
-  mkdir -p frames/${OLD_ID}_${ID}/ 2>/dev/null
-  let END=$NFRAMES*2
-  env in=animated_genomes/${OLD_ID}_${ID}.flame prefix=frames/${OLD_ID}_${ID}/ format=jpg jpeg=95 begin=$NFRAMES end=$END flam3-animate
-  mencoder mf://frames/${OLD_ID}_${ID}/*.jpg -mf w=$W:h=$H:fps=$FPS:type=jpg -ovc copy -oac copy -o movies/${OLD_ID}_${ID}.avi
-  echo "movies/${OLD_ID}_${ID}.avi" >> playlist.m3u
+  if ! [[ -f movies/${OLD_ID}_${ID}.avi ]]; then
+    # Now make the transition part
+    mkdir -p frames/${OLD_ID}_${ID}/ 2>/dev/null
+    let END=$NFRAMES*2
+    env in=animated_genomes/${OLD_ID}_${ID}.flame prefix=frames/${OLD_ID}_${ID}/ format=jpg jpeg=95 begin=$NFRAMES end=$END flam3-animate
+    mencoder mf://frames/${OLD_ID}_${ID}/*.jpg -mf w=$W:h=$H:fps=$FPS:type=jpg -ovc copy -oac copy -o movies/${OLD_ID}_${ID}.avi
+    echo "movies/${OLD_ID}_${ID}.avi" >> playlist.m3u
+  fi
 
   # Skip making the second part because it becomes the next first part on the subsequent loop
   # Yes, this means we never make the last file. We also don't get the first file. Eh
-  #mkdir -p frames/${ID}/ 2>/dev/null
-  #env in=animated_genomes/${OLD_ID}_${ID}.flame prefix=frames/${ID}/ format=jpg jpeg=95 begin=51 end=75 flam3-animate
-  #mencoder mf://frames/${ID}/*.jpg -mf w=$W:h=$H:fps=$FPS:type=jpg -ovc copy -oac copy -o movies/${ID}.avi
 
   OLD_FLAME=$FLAME
   OLD_ID=$ID
