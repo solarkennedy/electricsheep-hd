@@ -8,3 +8,6 @@ clean:
 	rm -rf animated_genomes/
 	rm -rf frames/
 	rm -rf movies/
+
+play:
+	mplayer -playlist playlist.m3u
