@@ -1,0 +1,297 @@
+<flame name="electricsheep.244.37654" time="0" size="800 592" center="-0.0786043 -0.0286043" scale="364" rotate="0" supersample="4" filter="1" filter_shape="gaussian" temporal_filter_type="box" temporal_filter_width="1" quality="2000" passes="1" temporal_samples="1000" background="0 0 0" brightness="9.23043" gamma="4" vibrancy="1" estimator_radius="11" estimator_minimum="0" estimator_curve="0.6" gamma_threshold="0.01" palette_mode="linear" interpolation_type="log" url="electricsheep.org" nick="brood" notes="brooding">
+   <xform weight="18" color="0.00467201" symmetry="0.862" polar="0.001" disc="0.958" coefs="-0.737233 0.645816 -0.540633 -0.909524 -0.0281062 0.184362"/>
+   <xform weight="0.1" color="0.596878" symmetry="0" julian="1" julian_power="3" julian_dist="-0.565783" coefs="0.0875269 0.53211 -0.415651 0.208019 0.0459362 -0.0567932"/>
+   <xform weight="1.71839" color="0.803677" symmetry="0" linear="0.249764" julian="0.750236" julian_power="11" julian_dist="-2.096" coefs="0.219549 0.0424106 -0.0424106 0.219549 0.0034931 0"/>
+   <finalxform color="0.979315" symmetry="1" linear="1" coefs="1 0 0 -1 0 0"/>
+   <color index="0" rgb="98 60 47"/>
+   <color index="1" rgb="97 58 50"/>
+   <color index="2" rgb="97 58 53"/>
+   <color index="3" rgb="92 64 52"/>
+   <color index="4" rgb="87 65 55"/>
+   <color index="5" rgb="83 76 71"/>
+   <color index="6" rgb="85 95 96"/>
+   <color index="7" rgb="99 126 110"/>
+   <color index="8" rgb="101 130 115"/>
+   <color index="9" rgb="104 135 121"/>
+   <color index="10" rgb="105 134 118"/>
+   <color index="11" rgb="106 134 114"/>
+   <color index="12" rgb="98 129 106"/>
+   <color index="13" rgb="88 122 94"/>
+   <color index="14" rgb="96 121 91"/>
+   <color index="15" rgb="116 131 101"/>
+   <color index="16" rgb="137 142 111"/>
+   <color index="17" rgb="144 149 115"/>
+   <color index="18" rgb="151 157 121"/>
+   <color index="19" rgb="164 176 126"/>
+   <color index="20" rgb="174 174 131"/>
+   <color index="21" rgb="166 166 120"/>
+   <color index="22" rgb="153 166 105"/>
+   <color index="23" rgb="124 150 98"/>
+   <color index="24" rgb="117 146 98"/>
+   <color index="25" rgb="111 143 97"/>
+   <color index="26" rgb="101 142 95"/>
+   <color index="27" rgb="93 144 101"/>
+   <color index="28" rgb="83 137 99"/>
+   <color index="29" rgb="73 118 84"/>
+   <color index="30" rgb="54 83 52"/>
+   <color index="31" rgb="60 64 39"/>
+   <color index="32" rgb="66 45 25"/>
+   <color index="33" rgb="69 46 22"/>
+   <color index="34" rgb="73 48 19"/>
+   <color index="35" rgb="91 48 16"/>
+   <color index="36" rgb="107 52 23"/>
+   <color index="37" rgb="112 65 25"/>
+   <color index="38" rgb="114 77 31"/>
+   <color index="39" rgb="106 88 47"/>
+   <color index="40" rgb="107 95 57"/>
+   <color index="41" rgb="108 104 68"/>
+   <color index="42" rgb="114 117 85"/>
+   <color index="43" rgb="121 131 89"/>
+   <color index="44" rgb="141 150 99"/>
+   <color index="45" rgb="177 164 107"/>
+   <color index="46" rgb="210 199 97"/>
+   <color index="47" rgb="224 195 91"/>
+   <color index="48" rgb="238 192 86"/>
+   <color index="49" rgb="232 190 85"/>
+   <color index="50" rgb="227 189 84"/>
+   <color index="51" rgb="220 179 82"/>
+   <color index="52" rgb="215 155 78"/>
+   <color index="53" rgb="208 143 76"/>
+   <color index="54" rgb="198 138 73"/>
+   <color index="55" rgb="187 144 74"/>
+   <color index="56" rgb="183 145 78"/>
+   <color index="57" rgb="179 146 83"/>
+   <color index="58" rgb="180 154 94"/>
+   <color index="59" rgb="181 174 111"/>
+   <color index="60" rgb="176 185 129"/>
+   <color index="61" rgb="215 172 167"/>
+   <color index="62" rgb="222 175 172"/>
+   <color index="63" rgb="239 183 168"/>
+   <color index="64" rgb="239 183 167"/>
+   <color index="65" rgb="224 200 143"/>
+   <color index="66" rgb="252 231 99"/>
+   <color index="67" rgb="252 223 87"/>
+   <color index="68" rgb="247 216 81"/>
+   <color index="69" rgb="247 199 79"/>
+   <color index="70" rgb="227 191 83"/>
+   <color index="71" rgb="179 159 91"/>
+   <color index="72" rgb="135 183 126"/>
+   <color index="73" rgb="111 160 128"/>
+   <color index="74" rgb="111 156 131"/>
+   <color index="75" rgb="111 156 135"/>
+   <color index="76" rgb="123 159 152"/>
+   <color index="77" rgb="127 161 167"/>
+   <color index="78" rgb="126 152 174"/>
+   <color index="79" rgb="119 141 160"/>
+   <color index="80" rgb="97 123 136"/>
+   <color index="81" rgb="99 123 129"/>
+   <color index="82" rgb="99 131 107"/>
+   <color index="83" rgb="99 119 95"/>
+   <color index="84" rgb="95 110 83"/>
+   <color index="85" rgb="87 94 70"/>
+   <color index="86" rgb="111 87 40"/>
+   <color index="87" rgb="119 83 43"/>
+   <color index="88" rgb="127 86 55"/>
+   <color index="89" rgb="137 86 52"/>
+   <color index="90" rgb="159 115 60"/>
+   <color index="91" rgb="175 121 51"/>
+   <color index="92" rgb="198 127 60"/>
+   <color index="93" rgb="221 144 48"/>
+   <color index="94" rgb="221 159 47"/>
+   <color index="95" rgb="214 166 36"/>
+   <color index="96" rgb="232 177 30"/>
+   <color index="97" rgb="247 192 35"/>
+   <color index="98" rgb="253 197 32"/>
+   <color index="99" rgb="252 198 35"/>
+   <color index="100" rgb="247 195 29"/>
+   <color index="101" rgb="247 193 43"/>
+   <color index="102" rgb="247 165 47"/>
+   <color index="103" rgb="240 150 36"/>
+   <color index="104" rgb="225 65 0"/>
+   <color index="105" rgb="224 63 0"/>
+   <color index="106" rgb="215 56 0"/>
+   <color index="107" rgb="103 35 0"/>
+   <color index="108" rgb="24 0 0"/>
+   <color index="109" rgb="0 0 0"/>
+   <color index="110" rgb="0 0 0"/>
+   <color index="111" rgb="0 0 0"/>
+   <color index="112" rgb="0 0 0"/>
+   <color index="113" rgb="0 0 0"/>
+   <color index="114" rgb="79 0 0"/>
+   <color index="115" rgb="135 52 0"/>
+   <color index="116" rgb="215 56 0"/>
+   <color index="117" rgb="215 56 0"/>
+   <color index="118" rgb="215 56 0"/>
+   <color index="119" rgb="79 22 0"/>
+   <color index="120" rgb="44 5 0"/>
+   <color index="121" rgb="0 0 22"/>
+   <color index="122" rgb="6 17 48"/>
+   <color index="123" rgb="25 36 71"/>
+   <color index="124" rgb="43 51 87"/>
+   <color index="125" rgb="32 40 75"/>
+   <color index="126" rgb="2 13 40"/>
+   <color index="127" rgb="0 0 13"/>
+   <color index="128" rgb="0 0 7"/>
+   <color index="129" rgb="0 5 29"/>
+   <color index="130" rgb="6 17 48"/>
+   <color index="131" rgb="48 55 91"/>
+   <color index="132" rgb="83 79 115"/>
+   <color index="133" rgb="111 99 123"/>
+   <color index="134" rgb="0 0 12"/>
+   <color index="135" rgb="0 0 13"/>
+   <color index="136" rgb="0 0 13"/>
+   <color index="137" rgb="0 0 14"/>
+   <color index="138" rgb="0 0 14"/>
+   <color index="139" rgb="1 10 11"/>
+   <color index="140" rgb="2 20 8"/>
+   <color index="141" rgb="3 30 5"/>
+   <color index="142" rgb="4 40 2"/>
+   <color index="143" rgb="231 193 110"/>
+   <color index="144" rgb="221 181 112"/>
+   <color index="145" rgb="210 175 110"/>
+   <color index="146" rgb="202 159 113"/>
+   <color index="147" rgb="204 149 128"/>
+   <color index="148" rgb="209 154 143"/>
+   <color index="149" rgb="207 155 159"/>
+   <color index="150" rgb="209 169 175"/>
+   <color index="151" rgb="215 186 191"/>
+   <color index="152" rgb="204 195 204"/>
+   <color index="153" rgb="187 209 200"/>
+   <color index="154" rgb="175 213 199"/>
+   <color index="155" rgb="154 202 190"/>
+   <color index="156" rgb="151 184 176"/>
+   <color index="157" rgb="150 175 159"/>
+   <color index="158" rgb="129 162 142"/>
+   <color index="159" rgb="124 141 120"/>
+   <color index="160" rgb="140 124 101"/>
+   <color index="161" rgb="141 113 88"/>
+   <color index="162" rgb="133 96 80"/>
+   <color index="163" rgb="132 88 74"/>
+   <color index="164" rgb="134 75 49"/>
+   <color index="165" rgb="133 61 39"/>
+   <color index="166" rgb="125 64 43"/>
+   <color index="167" rgb="88 45 10"/>
+   <color index="168" rgb="76 42 11"/>
+   <color index="169" rgb="64 40 13"/>
+   <color index="170" rgb="51 35 14"/>
+   <color index="171" rgb="39 30 16"/>
+   <color index="172" rgb="39 28 12"/>
+   <color index="173" rgb="39 26 8"/>
+   <color index="174" rgb="47 21 4"/>
+   <color index="175" rgb="63 31 2"/>
+   <color index="176" rgb="80 42 0"/>
+   <color index="177" rgb="96 48 6"/>
+   <color index="178" rgb="113 55 11"/>
+   <color index="179" rgb="133 67 20"/>
+   <color index="180" rgb="153 81 28"/>
+   <color index="181" rgb="161 85 38"/>
+   <color index="182" rgb="169 88 48"/>
+   <color index="183" rgb="190 135 73"/>
+   <color index="184" rgb="198 149 90"/>
+   <color index="185" rgb="207 164 108"/>
+   <color index="186" rgb="204 161 109"/>
+   <color index="187" rgb="202 158 110"/>
+   <color index="188" rgb="185 153 112"/>
+   <color index="189" rgb="168 148 115"/>
+   <color index="190" rgb="136 106 91"/>
+   <color index="191" rgb="122 103 81"/>
+   <color index="192" rgb="109 101 72"/>
+   <color index="193" rgb="116 100 60"/>
+   <color index="194" rgb="123 99 49"/>
+   <color index="195" rgb="130 102 48"/>
+   <color index="196" rgb="137 105 48"/>
+   <color index="197" rgb="147 118 44"/>
+   <color index="198" rgb="154 133 51"/>
+   <color index="199" rgb="188 164 78"/>
+   <color index="200" rgb="199 185 101"/>
+   <color index="201" rgb="210 207 125"/>
+   <color index="202" rgb="216 209 145"/>
+   <color index="203" rgb="223 211 164"/>
+   <color index="204" rgb="226 217 165"/>
+   <color index="205" rgb="230 224 167"/>
+   <color index="206" rgb="226 212 170"/>
+   <color index="207" rgb="213 201 157"/>
+   <color index="208" rgb="201 190 143"/>
+   <color index="209" rgb="186 171 120"/>
+   <color index="210" rgb="171 152 99"/>
+   <color index="211" rgb="165 144 92"/>
+   <color index="212" rgb="159 135 86"/>
+   <color index="213" rgb="148 116 70"/>
+   <color index="214" rgb="149 111 49"/>
+   <color index="215" rgb="171 120 29"/>
+   <color index="216" rgb="177 128 31"/>
+   <color index="217" rgb="184 136 34"/>
+   <color index="218" rgb="182 142 49"/>
+   <color index="219" rgb="181 149 65"/>
+   <color index="220" rgb="173 144 71"/>
+   <color index="221" rgb="166 140 76"/>
+   <color index="222" rgb="141 116 89"/>
+   <color index="223" rgb="130 97 77"/>
+   <color index="224" rgb="119 79 66"/>
+   <color index="225" rgb="116 72 51"/>
+   <color index="226" rgb="114 67 36"/>
+   <color index="227" rgb="114 66 28"/>
+   <color index="228" rgb="115 65 21"/>
+   <color index="229" rgb="105 62 15"/>
+   <color index="230" rgb="91 65 15"/>
+   <color index="231" rgb="59 60 16"/>
+   <color index="232" rgb="47 56 23"/>
+   <color index="233" rgb="35 53 30"/>
+   <color index="234" rgb="33 52 30"/>
+   <color index="235" rgb="32 51 30"/>
+   <color index="236" rgb="40 51 34"/>
+   <color index="237" rgb="58 55 41"/>
+   <color index="238" rgb="91 71 54"/>
+   <color index="239" rgb="99 79 63"/>
+   <color index="240" rgb="107 88 72"/>
+   <color index="241" rgb="100 84 71"/>
+   <color index="242" rgb="93 80 70"/>
+   <color index="243" rgb="85 74 67"/>
+   <color index="244" rgb="77 69 64"/>
+   <color index="245" rgb="64 63 47"/>
+   <color index="246" rgb="50 43 31"/>
+   <color index="247" rgb="25 22 14"/>
+   <color index="248" rgb="23 24 14"/>
+   <color index="249" rgb="20 25 14"/>
+   <color index="250" rgb="21 29 16"/>
+   <color index="251" rgb="23 34 19"/>
+   <color index="252" rgb="37 51 28"/>
+   <color index="253" rgb="53 62 43"/>
+   <color index="254" rgb="77 75 49"/>
+   <color index="255" rgb="87 66 48"/>
+   <edit date="Mon Jan 31 01:59:58 +0000 2011" id="37654" action="clone brood">
+      <edit date="Wed Jan  5 07:19:58 +0000 2011" id="36930" action="cross alternate 1: 0 0 1 improved colors" filename="upload" index="0">
+         <edit date="Mon Oct  4 03:32:41 +0000 2010" id="32747" action="clone brood" filename="spex" index="0">
+            <edit date="Fri Oct  1 07:18:34 +0000 2010" id="32683" action="mutate all reframed" filename="upload" index="0">
+               <edit date="Sun Aug 29 16:50:10 +0000 2010" id="23640" action="clone brood" filename="spex" index="0">
+                  <edit date="Sun Aug 29 03:32:01 +0000 2010" id="23365" action="cross alternate 1: 0 0 1 0" filename="upload" index="0">
+                     <edit date="Mon Jun 21 01:40:14 +0000 2010" id="21964" action="clone brood" filename="spex" index="0">
+                        <edit date="Sun Jun 20 03:21:21 +0000 2010" id="21947" action="cross alternate 0: 1 0 1 1 1 1 0 1 0 0 0 0" filename="upload" index="0"/>
+                     </edit>
+                     <edit date="Fri Jun 11 18:48:43 +0000 2010" nick="cqfd93" url="sylvie.gallet.free.fr/index.html" id="21854" action="clone upload" filename="spex" index="0">
+                        <edit filename="upload" index="0"/>
+                     </edit>
+                  </edit>
+               </edit>
+            </edit>
+         </edit>
+         <edit date="Mon Oct  4 03:40:57 +0000 2010" id="32757" action="clone brood" filename="spex" index="0">
+            <edit date="Sun Aug  8 03:47:13 +0000 2010" id="22735" action="cross alternate 0: 0 0 1 improved colors" filename="upload" index="0">
+               <edit date="Mon May 24 05:50:16 +0000 2010" id="21621" action="clone brood" filename="spex" index="0">
+                  <edit date="Mon Mar  1 03:41:21 +0000 2010" id="15641" action="cross alternate 1: 1 1 0 cmap_cross 1: 61 134 improved colors" filename="upload" index="0">
+                     <edit date="Sat Nov 14 19:18:38 +0000 2009" id="2054" action="clone brood" filename="spex" index="0">
+                        <edit date="Wed Nov 11 18:35:12 +0000 2009" id="1981" action="cross alternate 0: 0 0 1 0 1 1 1 improved colors" filename="upload" index="0"/>
+                     </edit>
+                     <edit date="Wed Jan 20 21:47:00 +0000 2010" id="10463" action="clone brood" filename="spex" index="0">
+                        <edit date="Sun Dec 27 04:50:58 +0000 2009" id="4185" action="cross alternate 0: 1 1 1 cmap_cross 1: 124 143" filename="upload" index="0"/>
+                     </edit>
+                  </edit>
+               </edit>
+               <edit date="Mon May 17 05:28:03 +0000 2010" nick="coppercat" url="www.coppercat.us" id="21529" action="clone upload" filename="spex" index="0">
+                  <edit filename="upload" index="0"/>
+               </edit>
+            </edit>
+         </edit>
+      </edit>
+   </edit>
+</flame>
