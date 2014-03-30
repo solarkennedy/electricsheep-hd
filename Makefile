@@ -2,7 +2,7 @@ default:
 	bash go.sh
 
 install_dependencies:
-	sudo apt-get install flam3 mencoder
+	sudo apt-get install flam3 mencoder mplayer
 
 clean:
 	rm -rf animated_genomes/

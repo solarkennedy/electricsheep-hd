@@ -8,6 +8,22 @@ It is an attempt to reproduce the work by
 
 ## Usage
 
+Install the programs you need (on Ubuntu):
+
+    make install_dependencies
+
+Edit the script variables to meet your needs:
+
+    vim go.sh
+
+Make some movies:
+
+    make
+
+Play them:
+
+    make play
+
 ## License 
 
 The Sheep themselves are under the 
